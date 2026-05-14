@@ -128,6 +128,7 @@ services:
       - GEMINI_CLI_OAUTH_CLIENT_SECRET=${GEMINI_CLI_OAUTH_CLIENT_SECRET:-}
       - ANTIGRAVITY_OAUTH_CLIENT_SECRET=${ANTIGRAVITY_OAUTH_CLIENT_SECRET:-}
       - ANTIGRAVITY_USER_AGENT_VERSION=${ANTIGRAVITY_USER_AGENT_VERSION:-}
+      - CODEX_CLI_VERSION=${CODEX_CLI_VERSION:-0.130.0}
 
       # =======================================================================
       # Security Configuration (URL Allowlist)
